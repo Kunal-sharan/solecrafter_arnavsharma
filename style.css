@@ -369,12 +369,13 @@ body {
     background-repeat: no-repeat;
     margin: 0;
     padding-bottom: 1%;
+    z-index: -1;
   }
   .logo {
     position: relative;
     height: 150px;
     width: 150px;
-    margin-bottom: -15%;
+    margin-bottom: -8%;
     margin-left: -1.5%;
   }
   .navbar {
@@ -414,7 +415,7 @@ body {
     text-align: center;
     width: 100px;
     height: 50px;
-    margin-left: 25%;
+    margin-left: 23%;
     margin-bottom: 0.25%;
     margin-top: 0.25%;
     padding-left: 40px;
@@ -441,8 +442,8 @@ body {
     gap: 100px;
   }
   .shoes > img {
-    width: 912px;
-    height: 912px;
+    width: 750px;
+    height: 750px;
   }
   .home_text {
     padding-top: 5%;
@@ -460,12 +461,12 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    font-size: 100px;
+    font-size: 70px;
     color: #ffef1f;
     font-family: Berlin;
   }
   .line02 {
-    font-size: 100px;
+    font-size: 70px;
     color: #f8c35a;
     font-family: Berlin;
   }
@@ -473,12 +474,12 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    font-size: 110px;
+    font-size: 75px;
     color: #ffef1f;
     font-family: Berlin;
   }
   .line03 {
-    font-size: 110px;
+    font-size: 75px;
     color: azure;
     font-family: Berlin;
   }
@@ -486,18 +487,18 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    font-size: 120px;
+    font-size: 80px;
     color: #ffef1f;
     font-family: Berlin;
   }
   .line04 {
-    font-size: 120px;
+    font-size: 80px;
     margin-left: -10px;
     color: azure;
     font-family: Berlin;
   }
   .line5 {
-    font-size: 130px;
+    font-size: 85px;
     color: azure;
     font-family: Berlin;
   }
