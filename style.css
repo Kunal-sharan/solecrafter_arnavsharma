@@ -10,7 +10,6 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  padding-bottom: 1%;
 }
 .logo {
   position: relative;
@@ -74,25 +73,18 @@ body {
   font-size: 18px;
   color: black;
 }
-.texture {
+.homepage {
   position: relative;
-  margin-left: 33.5%;
-  height: 600px;
-  width: 600px;
-}
-.shoes {
-  position: relative;
-  margin-top: -33%;
-  margin-left: 34%;
-  height: 600px;
-  width: 600px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 100px;
 }
 .home_text {
+  padding-top: 5%;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: -60%;
-  margin-left: 7%;
+  width: fit-content;
 }
 .line1 {
   font-size: 60px;
