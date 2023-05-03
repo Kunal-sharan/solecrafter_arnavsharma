@@ -362,3 +362,183 @@ body {
   gap: 10px;
   padding: 30px;
 }
+@media screen and (min-width: 1400px) {
+  .page1 {
+    background-color: #ff8400;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .logo {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin-bottom: -12%;
+    margin-left: -1.5%;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 15px;
+    margin: 0px;
+    background-color: #4f200d;
+    border: solid 1px #4f200d;
+    border-radius: 50px 0px 0px 50px;
+    height: 60px;
+  }
+  .components {
+    font-family: Berlin;
+    padding-top: 1.5%;
+    padding-left: 10%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    font-size: 20px;
+    color: aliceblue;
+  }
+  .customize:hover,
+  .store:hover,
+  .men1:hover,
+  .women1:hover,
+  .about:hover {
+    font-size: 20px;
+    color: #ffef1f;
+  }
+  .login_container {
+    font-family: Berlin;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    margin-left: 20%;
+    margin-bottom: 0.25%;
+    margin-top: 0.25%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 0.25%;
+    border: solid 1px black;
+    border-radius: 40px;
+    background-color: black;
+    font-size: 18px;
+    font-weight: 700;
+    color: aliceblue;
+  }
+  .login_container:hover {
+    background-color: aliceblue;
+    font-size: 18px;
+    color: black;
+  }
+  .homepage {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 250px;
+  }
+  .home_text {
+    position: relative;
+    margin-left: -10%;
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: fit-content;
+  }
+  .line1 {
+    font-size: 60px;
+    color: #f8c35a;
+    font-family: Berlin;
+  }
+  .line2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 62px;
+    color: #ffef1f;
+    font-family: Berlin;
+  }
+  .line02 {
+    font-size: 62px;
+    color: #f8c35a;
+    font-family: Berlin;
+  }
+  .line3 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 64px;
+    color: #ffef1f;
+    font-family: Berlin;
+  }
+  .line03 {
+    font-size: 64px;
+    color: azure;
+    font-family: Berlin;
+  }
+  .line4 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 66px;
+    color: #ffef1f;
+    font-family: Berlin;
+  }
+  .line04 {
+    font-size: 66px;
+    margin-left: -10px;
+    color: azure;
+    font-family: Berlin;
+  }
+  .line5 {
+    font-size: 70px;
+    color: azure;
+    font-family: Berlin;
+  }
+  .cta1 {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    text-align: left;
+    border: solid 1px black;
+    border-radius: 50px;
+    padding: 10px;
+    width: 220px;
+    padding-left: 50px;
+    background-color: black;
+    font-family: Berlin;
+    font-size: 25px;
+    color: aliceblue;
+    margin-left: 7%;
+    margin-top: 1%;
+  }
+  .cta_1 {
+    margin-top: 1%;
+    padding-top: 10px;
+  }
+  .arrow {
+    height: 40px;
+    transform: rotate(90deg);
+  }
+  .arrow_icon {
+    transform: rotate(180deg);
+  }
+  .cta1:hover {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    text-align: left;
+    border: solid 1px black;
+    border-radius: 50px;
+    padding: 10px;
+    width: 220px;
+    padding-left: 50px;
+    background-color: rgb(254, 254, 254);
+    font-family: Berlin;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-left: 6.75%;
+    margin-top: 1%;
+  }
+}
