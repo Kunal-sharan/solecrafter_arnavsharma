@@ -434,13 +434,13 @@ body {
   }
   .homepage {
     position: relative;
-    padding-top: 4%;
+    padding-top: 2.5%;
     display: flex;
     flex-direction: row-reverse;
     gap: 250px;
   }
   .shoes {
-    padding-top: 4%;
+    padding-top: 2.5%;
   }
   .home_text {
     position: relative;
@@ -452,7 +452,7 @@ body {
     width: fit-content;
   }
   .line1 {
-    font-size: 63px;
+    font-size: 65px;
     color: #f8c35a;
     font-family: Berlin;
   }
@@ -460,12 +460,12 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    font-size: 65px;
+    font-size: 67px;
     color: #ffef1f;
     font-family: Berlin;
   }
   .line02 {
-    font-size: 65px;
+    font-size: 67px;
     color: #f8c35a;
     font-family: Berlin;
   }
@@ -473,12 +473,12 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    font-size: 67px;
+    font-size: 69px;
     color: #ffef1f;
     font-family: Berlin;
   }
   .line03 {
-    font-size: 67px;
+    font-size: 69px;
     color: azure;
     font-family: Berlin;
   }
@@ -486,18 +486,18 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    font-size: 69px;
+    font-size: 71px;
     color: #ffef1f;
     font-family: Berlin;
   }
   .line04 {
-    font-size: 69px;
+    font-size: 71px;
     margin-left: -10px;
     color: azure;
     font-family: Berlin;
   }
   .line5 {
-    font-size: 73px;
+    font-size: 75px;
     color: azure;
     font-family: Berlin;
   }
