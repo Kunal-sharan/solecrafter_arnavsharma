@@ -226,9 +226,9 @@ body {
 }
 .print4 {
   position: relative;
-  width: 400px;
+  width: 280px;
   margin-left: 50%;
-  margin-top: -27%;
+  margin-top: -23%;
 }
 .container {
   height: 250px;
@@ -266,18 +266,10 @@ body {
   padding-top: 30%;
   display: flex;
   flex-direction: row;
+  gap: 25px;
   perspective: 100px;
   z-index: 1;
-  margin-left: -5%;
   transition: transform 2s ease-in;
-}
-.women,
-.kids {
-  margin-left: -9%;
-  margin-right: -3%;
-}
-.kids {
-  padding-left: -2%;
 }
 .quote {
   position: relative;
@@ -291,7 +283,7 @@ body {
 }
 .men:hover,
 .women:hover {
-  transform: translateZ(10px);
+  transform: translateZ(5px);
 }
 .page5 {
   background-color: #251717;
