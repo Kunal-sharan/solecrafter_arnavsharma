@@ -364,7 +364,7 @@ body {
     padding: 0;
   }
   .page1 {
-    background-image: url(sole\ crafter\ bg.png);
+    background-image: url(solecrafter\ bg\ 1.png);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -578,7 +578,7 @@ body {
 }
 .product3 {
   position: relative;
-  margin-top: -34%;
+  margin-top: -30%;
   margin-left: 25%;
   width: 500px;
   height: 350px;
@@ -589,13 +589,13 @@ body {
   width: 900px;
   position: relative;
   margin-left: 6%;
-  margin-top: -2%;
+  margin-top: 3%;
 }
 .print4 {
   position: relative;
   width: 280px;
   margin-left: 50%;
-  margin-top: -25%;
+  margin-top: -20%;
 }
 .container {
   height: 250px;
