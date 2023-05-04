@@ -365,15 +365,16 @@ body {
     position: relative;
     height: 150px;
     width: 150px;
-    margin-bottom: -12%;
+    margin-bottom: -10%;
     margin-left: -1.5%;
   }
   .navbar {
     display: flex;
     flex-direction: row;
+
     gap: 5px;
     padding: 15px;
-    margin: 0px;
+    margin: 1%;
     background-color: #4f200d;
     border: solid 1px #4f200d;
     border-radius: 50px 0px 0px 50px;
@@ -403,7 +404,7 @@ body {
     text-align: center;
     width: 100px;
     height: 50px;
-    margin-left: 20%;
+    margin-left: 23%;
     margin-bottom: 0.25%;
     margin-top: 0.25%;
     padding-left: 40px;
@@ -502,7 +503,7 @@ body {
     font-family: Berlin;
     font-size: 25px;
     color: aliceblue;
-    margin-left: 7%;
+    margin-left: 3%;
     margin-top: 1%;
   }
   .cta_1 {
