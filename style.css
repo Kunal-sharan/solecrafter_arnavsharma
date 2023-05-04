@@ -434,6 +434,7 @@ body {
   }
   .homepage {
     position: relative;
+    padding-top: 4%;
     display: flex;
     flex-direction: row-reverse;
     gap: 250px;
