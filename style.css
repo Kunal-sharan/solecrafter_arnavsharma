@@ -434,13 +434,13 @@ body {
   }
   .homepage {
     position: relative;
-    padding-top: 2.5%;
+    padding-top: 2%;
     display: flex;
     flex-direction: row-reverse;
     gap: 250px;
   }
   .shoes {
-    padding-top: 2.5%;
+    padding-top: 2%;
   }
   .home_text {
     position: relative;
