@@ -624,9 +624,10 @@ body {
 }
 .categories {
   position: relative;
+  margin-top: 1%;
   padding-top: 31%;
   padding-left: 5%;
-  margin-left: 4.5%;
+  margin-left: 4%;
   display: flex;
   flex-direction: row;
   gap: 25px;
