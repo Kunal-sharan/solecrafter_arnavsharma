@@ -358,6 +358,11 @@ body {
   padding: 30px;
 }
 @media screen and (min-width: 1400px) {
+  body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
   .page1 {
     background-color: #ff8400;
     width: 100%;
