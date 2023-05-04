@@ -445,14 +445,14 @@ body {
   .home_text {
     position: relative;
     margin-left: -12%;
-    padding-top: 4%;
+    padding-top: 2%;
     display: flex;
     flex-direction: column;
     gap: 16px;
     width: fit-content;
   }
   .line1 {
-    font-size: 60px;
+    font-size: 63px;
     color: #f8c35a;
     font-family: Berlin;
   }
@@ -460,12 +460,12 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    font-size: 62px;
+    font-size: 65px;
     color: #ffef1f;
     font-family: Berlin;
   }
   .line02 {
-    font-size: 62px;
+    font-size: 65px;
     color: #f8c35a;
     font-family: Berlin;
   }
@@ -473,12 +473,12 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    font-size: 64px;
+    font-size: 67px;
     color: #ffef1f;
     font-family: Berlin;
   }
   .line03 {
-    font-size: 64px;
+    font-size: 67px;
     color: azure;
     font-family: Berlin;
   }
@@ -486,18 +486,18 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    font-size: 66px;
+    font-size: 69px;
     color: #ffef1f;
     font-family: Berlin;
   }
   .line04 {
-    font-size: 66px;
+    font-size: 69px;
     margin-left: -10px;
     color: azure;
     font-family: Berlin;
   }
   .line5 {
-    font-size: 70px;
+    font-size: 73px;
     color: azure;
     font-family: Berlin;
   }
@@ -543,7 +543,7 @@ body {
     font-family: Berlin;
     font-size: 25px;
     color: rgb(0, 0, 0);
-    margin-left: 6.75%;
+    margin-left: 1%;
     margin-top: 1%;
   }
 }
