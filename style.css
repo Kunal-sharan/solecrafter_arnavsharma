@@ -265,7 +265,7 @@ body {
   padding-bottom: 1%;
 }
 .categories {
-  margin-top: 30%;
+  padding-top: 30%;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -785,7 +785,6 @@ body {
   position: relative;
   display: flex;
   flex-direction: row;
-  align-items: center;
   gap: 25px;
   perspective: 100px;
   z-index: 1;
@@ -796,8 +795,8 @@ body {
 .kids {
   position: relative;
   padding: 1%;
-  height: 700px;
-  width: 500px;
+  height: 600px;
+  width: 400px;
 }
 .men-img,
 .women-img,
