@@ -294,6 +294,148 @@ body {
 .women:hover {
   transform: translateZ(5px);
 }
+.page4 {
+  background-color: #4f200d;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-bottom: 10%;
+  padding-right: 10%;
+}
+.pagedesc {
+  font-family: berlin;
+  font-size: 80px;
+  color: #f5f1f1;
+}
+.cardcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.card1 {
+  position: relative;
+  padding: 1%;
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 40px;
+}
+.card1-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+}
+.card1desc {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -104%;
+  position: absolute;
+  background-color: #25171748;
+  backdrop-filter: blur(3px);
+  border-radius: 40px;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 1s;
+}
+.card1:hover .card1desc {
+  right: -3%;
+}
+.card1body {
+  padding-top: 5%;
+  text-align: center;
+  font-family: Berlin;
+  font-size: 16px;
+  color: #f5f1f1;
+}
+.cardsubcontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.card2 {
+  position: relative;
+  padding: 1%;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 40px;
+}
+.card2-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+}
+.card2desc {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -104%;
+  position: absolute;
+  background-color: #25171748;
+  backdrop-filter: blur(3px);
+  border-radius: 40px;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 1s;
+}
+.card2:hover .card2desc {
+  right: -3%;
+}
+.card2body {
+  padding-top: 5%;
+  text-align: center;
+  font-family: Berlin;
+  font-size: 14px;
+  color: #f5f1f1;
+}
+.card3 {
+  position: relative;
+  padding: 1%;
+  width: 230px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 40px;
+}
+.card3-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+}
+.card3desc {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -104%;
+  position: absolute;
+  background-color: #25171748;
+  backdrop-filter: blur(3px);
+  border-radius: 40px;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 1s;
+}
+.card3:hover .card3desc {
+  right: -3%;
+}
+.card3body {
+  padding-top: 1%;
+  text-align: center;
+  font-family: Berlin;
+  font-size: 14px;
+  color: #f5f1f1;
+}
 .page5 {
   background-color: #251717;
 }
