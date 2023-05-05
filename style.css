@@ -560,7 +560,7 @@ body {
     text-align: center;
     width: 100px;
     height: 50px;
-    margin-left: 23%;
+    margin-left: 25%;
     margin-bottom: 0.25%;
     margin-top: 0.25%;
     padding-left: 40px;
@@ -783,6 +783,9 @@ body {
   transition: transform 2s ease-in;
 }
 .kids {
-  margin-top: 1%;
-  margin-left: -0.5%;
+  margin-top: 2%;
+  margin-left: 1.5%;
+}
+.pagedesc {
+  font-size: 90px;
 }
