@@ -780,6 +780,7 @@ body {
   }
 }
 .categories {
+  padding-left: 5%;
   padding-top: 34%;
   position: relative;
   display: flex;
