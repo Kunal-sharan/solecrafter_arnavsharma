@@ -304,7 +304,13 @@ body {
   transform: translateZ(5px);
 }
 .page4 {
-  background-color: #4f200d;
+  background-image: url(how\ its\ done\ bg.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.page4content {
   display: flex;
   flex-direction: row;
   gap: 100px;
@@ -444,6 +450,74 @@ body {
   font-family: Berlin;
   font-size: 14px;
   color: #ffffff;
+}
+.reviewpage {
+  margin-top: -2%;
+  background-image: url(reviews\ bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding-top: 16%;
+  padding-bottom: 13%;
+}
+
+.reviewslider {
+  margin-left: 21%;
+  width: 100%;
+  max-width: 700px;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  padding-left: 10%;
+  width: 100%;
+  max-width: 900px;
+  height: 600px;
+  position: absolute;
+  transition: all 1s ease-in;
+}
+
+.slide img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+.leftbtn,
+.rightbtn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: #4f200d;
+  font-size: 18px;
+}
+.rightbtn {
+  margin-left: 90%;
+}
+.leftbtn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rightbtn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.leftbtn:active {
+  transform: scale(1.1);
+}
+.rightbtn:active {
+  transform: scale(1.1);
 }
 .page5 {
   background-color: #251717;
