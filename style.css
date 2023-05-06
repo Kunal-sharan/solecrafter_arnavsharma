@@ -885,10 +885,10 @@ body {
   font-size: 90px;
 }
 .reviewpage {
-  margin-top: -2%;
   background-image: url(reviews\ bg.png);
   background-size: contain;
   background-repeat: no-repeat;
+  margin: 0;
   padding-top: 16%;
   padding-bottom: 13%;
 }
