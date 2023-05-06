@@ -888,6 +888,7 @@ body {
   background-image: url(reviews\ bg.png);
   background-size: contain;
   background-repeat: no-repeat;
+  width: 100%;
   margin: 0;
   padding-top: 16%;
   padding-bottom: 13%;
