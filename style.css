@@ -884,3 +884,71 @@ body {
 .pagedesc {
   font-size: 90px;
 }
+.reviewpage {
+  margin-top: -2%;
+  background-image: url(reviews\ bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding-top: 16%;
+  padding-bottom: 13%;
+}
+
+.reviewslider {
+  margin-left: 21%;
+  width: 100%;
+  max-width: 700px;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  padding-left: 10%;
+  width: 100%;
+  max-width: 1000px;
+  height: 700px;
+  position: absolute;
+  transition: all 1s ease-in;
+}
+
+.slide img {
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
+}
+
+.leftbtn,
+.rightbtn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: #4f200d;
+  font-size: 18px;
+}
+.rightbtn {
+  margin-left: 90%;
+}
+.leftbtn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rightbtn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.leftbtn:active {
+  transform: scale(1.1);
+}
+.rightbtn:active {
+  transform: scale(1.1);
+}
