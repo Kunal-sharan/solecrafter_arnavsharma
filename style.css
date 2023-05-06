@@ -886,7 +886,7 @@ body {
 }
 .reviewpage {
   background-image: url(reviews\ bg.png);
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 100%;
   margin: 0;
@@ -913,8 +913,8 @@ body {
 }
 
 .slide img {
-  width: 85%;
-  height: 85%;
+  width: 80%;
+  height: 80%;
   object-fit: contain;
 }
 
