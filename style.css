@@ -464,7 +464,7 @@ body {
 }
 .reviewslider {
   margin-left: 21%;
-  width: 50px;
+  width: 1050px;
   height: 550px;
   position: relative;
   overflow: hidden;
@@ -956,8 +956,8 @@ body {
   transform: scale(1.1);
 }
 .reviewslider {
-  margin-left: 24%;
-  width: 50px;
+  margin-left: 22%;
+  width: 1050px;
   height: 550px;
   position: relative;
   overflow: hidden;
