@@ -268,7 +268,6 @@ body {
   position: relative;
   display: flex;
   flex-direction: row;
-  align-items: center;
   gap: 25px;
   perspective: 100px;
   z-index: 1;
@@ -278,7 +277,6 @@ body {
 .women,
 .kids {
   position: relative;
-  padding: 1%;
   height: 350px;
   width: 250px;
 }
@@ -290,13 +288,15 @@ body {
   object-fit: cover;
 }
 .quote {
+  width: 600px;
   position: relative;
-  margin-top: 25%;
-  margin-left: 60%;
+  padding-bottom: 7%;
+  margin-top: 28%;
+  margin-left: 52%;
   margin-bottom: 5%;
   margin-right: 5%;
   font-family: Berlin;
-  font-size: 35px;
+  font-size: 38px;
   color: aliceblue;
 }
 .men:hover,
@@ -318,6 +318,7 @@ body {
   padding-left: 10%;
   padding-bottom: 10%;
   padding-right: 10%;
+  border-bottom: solid 2px #251717;
 }
 .pagedesc {
   font-family: berlin;
@@ -452,8 +453,8 @@ body {
   color: #ffffff;
 }
 .reviewpage {
-  margin-top: -2%;
-  background-image: url(reviews\ bg.png);
+  margin-top: 0%;
+  background-image: url(reviews\ bg2.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
@@ -461,12 +462,10 @@ body {
   padding-top: 16%;
   padding-bottom: 13%;
 }
-
 .reviewslider {
   margin-left: 21%;
-  width: 100%;
-  max-width: 700px;
-  height: 450px;
+  width: 50px;
+  height: 550px;
   position: relative;
   overflow: hidden;
 }
@@ -488,7 +487,7 @@ body {
 
 .leftbtn,
 .rightbtn {
-  position: absolute;
+  position: relative;
   width: 40px;
   height: 40px;
   padding: 10px;
@@ -499,9 +498,7 @@ body {
   background-color: #4f200d;
   font-size: 18px;
 }
-.rightbtn {
-  margin-left: 90%;
-}
+
 .leftbtn img {
   width: 100%;
   height: 100%;
@@ -885,44 +882,51 @@ body {
   font-size: 90px;
 }
 .reviewpage {
-  background-image: url(reviews\ bg.png);
-  background-size: 100% 100%;
+  background-image: url(review\ copy1.png);
+  background-size: 100% 85%;
   background-repeat: no-repeat;
+  background-color: #4f200d;
   width: 100%;
   margin: 0;
-  padding-top: 16%;
-  padding-bottom: 13%;
+  padding-top: 0%;
+  padding-bottom: 15%;
 }
-
+.reviewrow {
+  display: flex;
+  flex-direction: row;
+}
 .reviewslider {
-  margin-left: 21%;
+  margin-left: 10%;
   width: 100%;
-  max-width: 700px;
-  height: 450px;
+  max-width: 1100px;
+  height: 650px;
   position: relative;
   overflow: hidden;
 }
 
 .slide {
-  padding-left: 10%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15%;
+  padding-left: 15%;
   width: 100%;
-  max-width: 1000px;
-  height: 700px;
+  width: 1200px;
+  height: 600px;
   position: absolute;
   transition: all 1s ease-in;
 }
 
 .slide img {
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
   object-fit: contain;
 }
 
 .leftbtn,
 .rightbtn {
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 70px;
+  height: 70px;
   padding: 10px;
   border: none;
   border-radius: 50%;
@@ -932,7 +936,7 @@ body {
   font-size: 18px;
 }
 .rightbtn {
-  margin-left: 90%;
+  margin-left: 80%;
 }
 .leftbtn img {
   width: 100%;
